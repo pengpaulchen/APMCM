@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['30', '60', '90']
+
+roboflow:
+  workspace: v831
+  project: apple_maturity
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/v831/apple_maturity/dataset/1

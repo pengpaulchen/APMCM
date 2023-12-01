@@ -1,0 +1,13 @@
+train: E:\code\python\APMCM\\apple.v1i.yolov8/train/images
+val: E:\code\python\APMCM\\apple.v1i.yolov8/valid/images
+test: E:\code\python\APMCM\\apple.v1i.yolov8/test/images
+
+nc: 1
+names: ['apple']
+
+roboflow:
+  workspace: zhongnan-university-of-economics-and-law-sbmi1
+  project: apple-7ndap
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/zhongnan-university-of-economics-and-law-sbmi1/apple-7ndap/dataset/1
